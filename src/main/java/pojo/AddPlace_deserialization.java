@@ -5,6 +5,7 @@ import java.util.List;
 public class AddPlace_deserialization {
 	
 	private location  location;
+//	private location1  location1;
 	private int accuracy;
 	private String name;
 	private String phone_number;
