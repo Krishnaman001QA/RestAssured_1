@@ -6,6 +6,8 @@ public class AddPlace_deserialization {
 	
 	private location  location;
 //	private location1  location1;
+//	private location1  location2;
+//	private location1  location3; //fbd
 	private int accuracy;
 	private String name;
 	private String phone_number;

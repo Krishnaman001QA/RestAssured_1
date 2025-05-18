@@ -1,4 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: cucumber.Options.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.150 s -- in cucumber.Options.TestRunner
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.912 s <<< FAILURE! -- in cucumber.Options.TestRunner
+Validating Place API's.Verify if Place is being Succesfully added using AddPlaceAPI -- Time elapsed: 1.442 s <<< ERROR!
+java.io.FileNotFoundException: C:\Users\Fleek\eclipse-workspace\APIFramework\src\test\java\resources\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at resources.Utils.getGlobalvalues(Utils.java:43)
+	at resources.Utils.requestSpecification(Utils.java:28)
+	at StepDefination.stepdefination.add_place_payload(stepdefination.java:42)
+	at ✽.Add Place Payload "Sanju" "English" "Graphix tower"(file:///C:/Users/Himanshu/eclipse-workspace/RestAssured_1/src/test/java/Features/placeValidation.feature:12)
+
+Validating Place API's.Verify if Delete Place Functiuonality is working -- Time elapsed: 0.014 s <<< ERROR!
+java.io.FileNotFoundException: C:\Users\Fleek\eclipse-workspace\APIFramework\src\test\java\resources\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at resources.Utils.getGlobalvalues(Utils.java:43)
+	at resources.Utils.requestSpecification(Utils.java:28)
+	at StepDefination.stepdefination.add_place_payload(stepdefination.java:42)
+	at StepDefination.Hooks.beforeScenarios(Hooks.java:14)
+
